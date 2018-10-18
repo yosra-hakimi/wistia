@@ -1,0 +1,497 @@
+html , body {
+	margin: 0;
+}
+
+.header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+	font-family:sans-serif;
+}
+
+.logo{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+.nav {
+	width: 60%;
+	height: 100%;
+	border-right: 1px solid #EFEFEF;
+	border-bottom: 1px solid #EFEFEF;
+	border-left: 1px solid #EFEFEF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.menu {
+	border-bottom: 1px solid #EFEFEF;
+	height: 100%;
+	width: 20%;
+	display: flex;
+	align-items: center;
+}
+
+.nav ul li {
+	display: inline;
+	padding-left: 14px;
+	padding-right: 14px;
+
+}
+
+.nav a {
+	    color: rgb(91, 107, 127);
+	    text-decoration: none;
+	    font-size: 1.1em;
+
+}
+
+.nav1 {
+	height: 50%;
+	display: flex;
+	align-items: center;
+	
+}
+
+.nav2{
+	height: 50%;
+	background-color: #f9f9f9;
+	display: flex;
+	align-items: center;
+
+}
+
+.menu a {
+	color: rgb(91, 107, 127);
+	 text-decoration: none;
+	 font-size: 1.2em;
+
+}
+
+
+.signUp{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-right: 1px solid #EFEFEF;
+	
+}
+
+.login:hover{
+  background:#efefef;
+  
+}
+.signUp:hover{
+  background:#efefef;
+}
+
+.login{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	height:100%;
+}
+
+.link{
+		align-self: center;
+}
+
+.active{
+	color: #3ea9f5 !important;
+}
+
+.navb{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.section1{
+  display:flex;
+  background:#c896a5;
+  width:100%;
+  height:500px;
+ 
+}
+
+.video-software{
+  color:white;
+
+}
+.text-software{
+
+   font-size: 2.6em;
+  font-weight: 400; 
+  font-family: "Walsheim", sans-serif;
+  
+  width:500px;
+  height:94px;
+  
+}
+.watch-video-button{
+  display:flex;
+ justify-content:center;
+  align-items:center;
+  color: #363945;
+  text-align: center;
+  background:white;
+  font-family: "Walsheim", sans-serif;
+  font-size: 20px;
+ font-weight: 600;
+ border-radius: 5px;
+  width:213px;
+  height:67px;
+   text-decoration: none;
+   
+
+}
+
+
+
+.watch-video-flex{
+  display:flex;
+  
+
+ 
+}
+.div1-section1{
+  flex-grow:1; 
+  
+  margin-left: 150px;
+  margin-top: 100px;
+
+}
+
+.camera-image{
+   display:flex;
+  flex-grow: 1;
+  margin-top: 30px;
+  margin-right: 90px;
+}
+
+.section2{
+
+  display:flex;
+  width:100%;
+  height:400px;
+  font-family: "Walsheim", sans-serif;
+
+
+}
+.div1-section2{
+  background-color:#FED24A;
+  flex-grow: 1;
+  padding:30px;
+  padding: 45px 58px 50px;
+}
+.div2-section2{
+  background-color:#51C29F; 
+  flex-grow: 1;
+    padding:30px;
+    padding: 45px 58px 50px;
+}
+.div3-section2{
+  background-color:#3EA9F5; 
+  flex-grow: 1;
+  padding:30px;
+  padding: 45px 58px 50px;
+}
+.titre{
+  color: #fff;
+    width: 100%;
+    font-size: 23px;
+    line-height: 30px;
+    margin: 15px 0 10px;
+    font-weight: bold;
+}
+.text-section2{
+  color: #363945;
+  line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.section2 a{
+
+  color: #363945;
+ 
+   font-size: 20px;
+ 
+   width: 100%;
+   text-decoration: none;
+
+}
+
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+    height: 130px;
+    width: 227.8125px;
+}
+
+.start-for-free-button{
+	border: 2px solid #EFEFEF;
+	color: #2A2D35;
+    border-color: rgba(255,255,255,0.55);
+    font-size: 18px !important;
+    font-weight: bold;
+    text-align:center;
+    padding:15px; 
+   border-radius: 5px;
+   /*width:;*/
+}
+.fa-book{
+	font-size:50px;
+
+}
+.fa-laptop
+{
+	font-size:50px;
+
+}
+.div1-section2 svg{
+height:50px;
+width:50px;
+}
+.start-for-free-button:hover {
+      
+	background-color: white;
+}
+.fa-book:hover,.fa-laptop:hover,.div1-section2 svg:hover{
+	color:white;
+}
+.section3{
+	display:flex;
+	width:100%;
+	height:300px;
+}
+.div1-section3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: #9CA8B7;
+    font-family: "Walsheim", sans-serif;
+    flex: 1 ;  
+    order:1;
+
+}
+.div2-section3
+{ display:flex;
+	align-items: center;
+  justify-content: center;
+  order:2;
+  flex: 1 ;
+   
+}
+
+.div3-section3
+{
+	order:3;
+	flex: 1 ;
+	display:flex;
+	align-items: center;
+  justify-content: center;
+}
+.div4-section3
+{
+	order:4;
+	flex: 1 ;
+	display:flex;
+	align-items: center;
+  justify-content: center;
+}
+
+
+.div5-section3
+{
+	order:5;
+	flex: 1 ;
+	display:flex;
+	align-items: center;
+  justify-content: center;
+}	
+.div6-section3
+{
+	order:6;	
+	flex: 1 ;
+	display:flex;
+	align-items: center;
+  justify-content: center;
+}
+ .section4{
+ 	display:flex;
+ 	justify-content:space-around;
+ 	width:100%;
+  height:500px;
+  font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif !important;*/
+
+ }
+ .image-section4
+ { display:flex;
+   
+
+  }
+  .titre-section4 {
+  	font-family: "Walsheim", sans-serif;
+    font-size:18px; 
+
+ }
+ .text-section4{
+
+    
+    font-size: 16px;
+    color: #363945;
+  line-height: 28px;
+  padding-top:15px; 
+
+
+ }
+.learn-more{
+  color: #217AD5;
+}
+ .div1-section4 {
+ 	display:flex;
+   flex-direction:column;
+
+
+   
+ }
+  .div2-section4{
+  	display:flex;
+    
+    flex-direction:column; 
+
+   
+ }
+  .div3-section4{
+  	display:flex;
+  	flex-direction:column; 
+
+  
+   
+ }
+ .section5{
+ 	display:flex;
+
+    font-size: 18px;
+    background-color: #e8e7e6;
+   justify-content: center;
+   width:100%;
+   height:60px;
+   
+ }
+ .section5 a
+ { color: #777777;
+
+ }
+ .text-section5{
+ 	 color: #777777;
+ 	 font-family: "Walsheim", sans-serif;
+
+ 	
+ }
+ 
+
+
+
+ footer{
+    display:flex;
+    flex-wrap: wrap;
+    background-color:#2a2d35;
+    width:100%;
+    height:500px;
+    font-family: "Walsheim", sans-serif;  
+   
+  
+
+ }
+
+ .footer-menu{
+  display:flex;
+
+
+ }
+
+.footer-menu span{ 
+  color:white;
+  font-size: 17px;
+
+
+
+ }
+
+ .footer-menu a{
+ 
+  text-decoration: none;
+  color:#b2b9c1;
+  font-size: 15px;
+
+ }
+ ul {
+    list-style-type: none;
+    margin:15px ;
+    padding:15px ;
+}
+li{
+  margin:4px ;
+  padding:4px ;
+}
+.part1{
+  display:flex;
+  height: 300px;
+   border-bottom:1px solid #50545c;
+   width:98%;
+   margin:40px 50px 25px 50px;
+
+
+
+}
+.text-footer{
+  font-size: 1.4em;
+    line-height: 1.3em;
+    font-weight: 500;
+    color:white;
+
+}
+.follow-us{
+  
+  color:white;
+
+}
+.follow-us a{
+     color: #3ea9f5;
+     text-decoration: none;
+}
+.div1-part1{
+
+  margin-right:80px;
+padding-left:30px;
+}
+
+.part2{
+color:#595e65;
+
+height:100px;
+width:100%;
+text-align: center;
+
+}
+.part2 a{
+color:#595e65;
+     text-decoration: none;
+}
